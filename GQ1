@@ -1,0 +1,24 @@
+#Version 1
+
+import tkinter 
+from tkinter import *
+app=Tk()
+imagen= PhotoImage(file="fondo.png")
+Label(app, image=imagen, bd=0).pack()
+
+app.mainloop()
+
+#Versión 2
+
+from tkinter import *
+import tkinter.font as tkFont
+
+#Creando una instancia de tkinter en una ventana
+win=Tk()
+
+#Tamaño de la ventana
+win.geometry("700x350")
+
+
+def font_style():
+    label.config(font=("Helvetica bold"),26))
